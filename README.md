@@ -36,9 +36,9 @@ The application follows a decoupled, modular design to ensure high **Architectur
 ---
 
 ## 4. Technical Explanation & Justification
-* **Why Gemini 1.5 Flash?** It provides the best balance of reasoning and speed. Its massive context window allows for handling significantly larger technical manuals than standard models.
+* **Why Gemini 2.5 Flash?** It provides the best balance of reasoning and speed. Its massive context window allows for handling significantly larger technical manuals than standard models.
 * **Modular Design**: Separating the `RAGEngine` logic from the Streamlit UI ensures that the core AI functionality can be reused in different environments (CLI, API, or Mobile) without rewriting the logic.
-* **Vector Embeddings**: Transitioned to `text-embedding-004` to ensure compatibility with the stable Google Generative AI v1 API and improve semantic retrieval accuracy.
+* **Vector Embeddings**: Transitioned to `text-embedding-001` to ensure compatibility with the stable Google Generative AI v1 API and improve semantic retrieval accuracy.
 
 ---
 
@@ -80,4 +80,5 @@ docker build -t csn-chatbot .
 # Run the container (Access at http://localhost:8501)
 docker run -p 8501:8501 --env-file .env csn-chatbot
 
-### 6. Total Development Time: 6 hours
+
+# Total Development Time: 6 hours
