@@ -13,8 +13,8 @@ The application follows a decoupled, modular design to ensure high **Architectur
 * **UI Layer (`app.py`)**: A professional **Streamlit** interface handling multi-turn chat sessions, session state, and real-time user feedback.
 
 ### Key Technical Components
-* **LLM**: **Gemini 1.5 Flash** (Selected for its 1M+ token context window and industry-leading inference speed).
-* **Embeddings**: Google Generative AI (`models/text-embedding-004`).
+* **LLM**: **Gemini 2.5 Flash** (Selected for its 1M+ token context window and industry-leading inference speed).
+* **Embeddings**: Google Generative AI (`models/text-embedding-001`).
 * **Vector Store**: **ChromaDB** (High-performance local vector storage for rapid retrieval).
 * **Chunking Strategy**: `RecursiveCharacterTextSplitter` (Chunk Size: 1000, Overlap: 100).
 * **Memory**: `ConversationBufferMemory` for persistent conversational context.
