@@ -1,4 +1,4 @@
-# 🤖 AI Document Chatbot (Advanced RAG System)
+# AI Document Chatbot (Advanced RAG System)
 
 ## 1. Project Overview
 This project is an intelligent chat system developed for high-accuracy document interrogation. It utilizes a **Retrieval-Augmented Generation (RAG)** architecture to provide context-aware answers from internal PDF and DOCX manuals while strictly adhering to hallucination control protocols.
@@ -48,8 +48,8 @@ The application follows a decoupled, modular design to ensure high **Architectur
 ### Local Setup
 1.  **Clone the Repository**
     ```bash
-    git clone <your-repository-url>
-    cd <repository-folder>
+    git clone https://github.com/nafisa-progga/AI-DOCUMENT-CHATBOT-RAG-.git
+    cd AI-DOCUMENT-CHATBOT-RAG or <repository-folder>
     ```
 2.  **Create & Activate Virtual Environment**
     ```bash
