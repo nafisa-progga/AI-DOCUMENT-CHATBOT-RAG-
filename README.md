@@ -80,3 +80,5 @@ docker build -t csn-chatbot .
 
 # Run the container (Access at http://localhost:8501)
 docker run -p 8501:8501 --env-file .env csn-chatbot
+
+## 6. Total Development Time: 6 hours
