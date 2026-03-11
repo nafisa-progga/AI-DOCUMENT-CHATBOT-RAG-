@@ -32,7 +32,6 @@ The application follows a decoupled, modular design to ensure high **Architectur
 | **Request Logging** | Records all queries and system operations into `app_usage.log` and `app_log.log`. |
 | **Prompt Injection Protection** | Advanced instructional guardrails and delimiters (###) to block jailbreak attempts. |
 | **Dockerization** | Full `Dockerfile` and `.dockerignore` provided for consistent containerized deployment. |
-| **Cloud Ready** | Provided `app.yaml` for seamless deployment to **Google Cloud Platform**. |
 
 ---
 
@@ -81,4 +80,4 @@ docker build -t csn-chatbot .
 # Run the container (Access at http://localhost:8501)
 docker run -p 8501:8501 --env-file .env csn-chatbot
 
-## 6. Total Development Time: 6 hours
+### 6. Total Development Time: 6 hours
