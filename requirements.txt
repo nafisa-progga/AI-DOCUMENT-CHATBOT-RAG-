@@ -1,0 +1,10 @@
+streamlit
+langchain>=0.3.0
+langchain-chroma
+langchain-google-genai
+langchain-community
+langchain-core
+python-dotenv
+pypdf
+docx2txt
+chromadb
